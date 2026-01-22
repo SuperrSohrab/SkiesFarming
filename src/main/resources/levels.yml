@@ -1,0 +1,30 @@
+# XP Growth Configuration
+# Choose one of three growth modes: LINEAR, EXPONENTIAL, or CUSTOM
+
+growth-mode: EXPONENTIAL
+
+# LINEAR GROWTH
+# Increases by a fixed amount each level
+linear:
+  base: 100              # XP required for level 1
+  increment: 50          # XP added per level
+  round-to: 5            # Optional: round to nearest 5 or 10 (set to 0 to disable)
+
+# EXPONENTIAL GROWTH
+# Multiplies by a factor each level
+exponential:
+  base: 100              # XP required for level 1
+  multiplier: 1.1       # Multiplier per level (1.1 = 10% increase per level)
+  round-to: 5            # Optional: round to nearest 5 or 10 (set to 0 to disable)
+
+# CUSTOM LEVELS
+# Define XP requirements manually
+levels:
+  1: 100
+  2: 150
+  3: 200
+  4: 250
+  5: 300
+
+# Fallback for levels not defined in CUSTOM mode
+default-per-level: 300

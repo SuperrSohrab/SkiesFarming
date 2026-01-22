@@ -1,0 +1,9 @@
+name: SkiesFarming
+main: com.itzacat.Plugin
+author: ItzAcat, SuperrSohrab
+description: A plugin to improve farming on Minecraft servers.
+website: https://modrinth.com/plugin/skiesfarming
+version: 1.0
+api-version: 1.20
+softdepend:
+  - PlaceholderAPI

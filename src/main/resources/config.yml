@@ -1,0 +1,22 @@
+crop-xp:
+  CARROTS: 4
+  POTATOES: 6
+  WHEAT: 8
+  BEETROOTS: 15
+  NETHER_WART: 24
+
+unlock-levels:
+  CARROTS: 0
+  POTATOES: 10
+  WHEAT: 20
+  BEETROOTS: 50
+  NETHER_WART: 100
+
+auto-refarm:
+  enabled: true
+  delay-ticks: 100 # 5 seconds
+  only-when-not-using-hoe: true
+
+growth:
+  mode: VANILLA # VANILLA or FIXED
+  fixed-grow-ticks: 1200 # 60 seconds when mode is FIXED
